@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+}
+.navbar-brand {
+  margin-left: 25px;
+}
+.nav-item {
+  padding-left: 15px;
+  float: left;
+  margin-right:20px;
+  color: #E91E63;
+}
+
+.parallax {
+  min-height: 600px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.jumbotron {
+  margin-bottom: 0;
+  overflow: hidden;
+}
+
+.navbar-inner {
+  background:transparent;
+}
+
+.navbar {
+  box-shadow: 0 6px 6px -2px rgba(0,0,0,.3);
+  transition:500ms ease;
+  background:transparent;
+  margin-bottom: 0 !important;
+}
+
+.scrolled {
+  background:#000;
+  color: rgb()
+}
+
+.navbar-nav > .active > a {
+  color: aqua;    
+}
+
+.videoContent {  
+  position: fixed;
+  z-index: 1000;
+  top: 200;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.navbar-dark .nav-item > a:hover{
+  color: red;
+}
+
+.parallax {
+  background-image: url("img_parallax.jpg");
+  /* Set a specific height */
+  height: 500px; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
